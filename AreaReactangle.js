@@ -5,7 +5,7 @@ function calculateArea(length , width){
     if(length<1 || width<1) {
         throw new Error(`Length and width values must be greater than 1 please enter correct values ${"Length: ", length , "Width: " , width}`)
     }
-    console.log(area);
+    console.log("Area of rectangle is: " , area);
     return;
 }
 
